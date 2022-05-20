@@ -1,8 +1,8 @@
 for(var i=0;i<7;i++)
 {
     document.querySelectorAll("button")[i].addEventListener("click",function(){
-        var key=this.innerHTML;
-        player(key);
+        var btn=this.innerHTML;
+        player(btn);
     });
 }
 
